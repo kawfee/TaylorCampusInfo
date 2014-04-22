@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51AF4591906DE8F0047FBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF4581906DE8F0047FBEF /* Foundation.framework */; };
+		B51AF45B1906DE8F0047FBEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF45A1906DE8F0047FBEF /* CoreGraphics.framework */; };
+		B51AF45D1906DE8F0047FBEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF45C1906DE8F0047FBEF /* UIKit.framework */; };
+		B51AF4631906DE8F0047FBEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51AF4611906DE8F0047FBEF /* InfoPlist.strings */; };
+		B51AF4651906DE8F0047FBEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF4641906DE8F0047FBEF /* main.m */; };
+		B51AF4691906DE8F0047FBEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF4681906DE8F0047FBEF /* AppDelegate.m */; };
+		B51AF46C1906DE8F0047FBEF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51AF46A1906DE8F0047FBEF /* Main_iPhone.storyboard */; };
+		B51AF46F1906DE8F0047FBEF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51AF46D1906DE8F0047FBEF /* Main_iPad.storyboard */; };
+		B51AF4721906DE8F0047FBEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF4711906DE8F0047FBEF /* ViewController.m */; };
+		B51AF4741906DE8F0047FBEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51AF4731906DE8F0047FBEF /* Images.xcassets */; };
+		B51AF47B1906DE8F0047FBEF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF47A1906DE8F0047FBEF /* XCTest.framework */; };
+		B51AF47C1906DE8F0047FBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF4581906DE8F0047FBEF /* Foundation.framework */; };
+		B51AF47D1906DE8F0047FBEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51AF45C1906DE8F0047FBEF /* UIKit.framework */; };
+		B51AF4851906DE8F0047FBEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51AF4831906DE8F0047FBEF /* InfoPlist.strings */; };
+		B51AF4871906DE8F0047FBEF /* Taylor_University_InfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51AF4861906DE8F0047FBEF /* Taylor_University_InfoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51AF47E1906DE8F0047FBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51AF44D1906DE8F0047FBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51AF4541906DE8F0047FBEF;
+			remoteInfo = "Taylor University Info";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51AF4551906DE8F0047FBEF /* Taylor University Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taylor University Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51AF4581906DE8F0047FBEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B51AF45A1906DE8F0047FBEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B51AF45C1906DE8F0047FBEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B51AF4601906DE8F0047FBEF /* Taylor University Info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taylor University Info-Info.plist"; sourceTree = "<group>"; };
+		B51AF4621906DE8F0047FBEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B51AF4641906DE8F0047FBEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51AF4661906DE8F0047FBEF /* Taylor University Info-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taylor University Info-Prefix.pch"; sourceTree = "<group>"; };
+		B51AF4671906DE8F0047FBEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B51AF4681906DE8F0047FBEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B51AF46B1906DE8F0047FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B51AF46E1906DE8F0047FBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B51AF4701906DE8F0047FBEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B51AF4711906DE8F0047FBEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B51AF4731906DE8F0047FBEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B51AF4791906DE8F0047FBEF /* Taylor University InfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taylor University InfoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51AF47A1906DE8F0047FBEF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B51AF4821906DE8F0047FBEF /* Taylor University InfoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taylor University InfoTests-Info.plist"; sourceTree = "<group>"; };
+		B51AF4841906DE8F0047FBEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B51AF4861906DE8F0047FBEF /* Taylor_University_InfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taylor_University_InfoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51AF4521906DE8F0047FBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF45B1906DE8F0047FBEF /* CoreGraphics.framework in Frameworks */,
+				B51AF45D1906DE8F0047FBEF /* UIKit.framework in Frameworks */,
+				B51AF4591906DE8F0047FBEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51AF4761906DE8F0047FBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF47B1906DE8F0047FBEF /* XCTest.framework in Frameworks */,
+				B51AF47D1906DE8F0047FBEF /* UIKit.framework in Frameworks */,
+				B51AF47C1906DE8F0047FBEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51AF44C1906DE8F0047FBEF = {
+			isa = PBXGroup;
+			children = (
+				B51AF45E1906DE8F0047FBEF /* Taylor University Info */,
+				B51AF4801906DE8F0047FBEF /* Taylor University InfoTests */,
+				B51AF4571906DE8F0047FBEF /* Frameworks */,
+				B51AF4561906DE8F0047FBEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51AF4561906DE8F0047FBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4551906DE8F0047FBEF /* Taylor University Info.app */,
+				B51AF4791906DE8F0047FBEF /* Taylor University InfoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51AF4571906DE8F0047FBEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4581906DE8F0047FBEF /* Foundation.framework */,
+				B51AF45A1906DE8F0047FBEF /* CoreGraphics.framework */,
+				B51AF45C1906DE8F0047FBEF /* UIKit.framework */,
+				B51AF47A1906DE8F0047FBEF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B51AF45E1906DE8F0047FBEF /* Taylor University Info */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4671906DE8F0047FBEF /* AppDelegate.h */,
+				B51AF4681906DE8F0047FBEF /* AppDelegate.m */,
+				B51AF46A1906DE8F0047FBEF /* Main_iPhone.storyboard */,
+				B51AF46D1906DE8F0047FBEF /* Main_iPad.storyboard */,
+				B51AF4701906DE8F0047FBEF /* ViewController.h */,
+				B51AF4711906DE8F0047FBEF /* ViewController.m */,
+				B51AF4731906DE8F0047FBEF /* Images.xcassets */,
+				B51AF45F1906DE8F0047FBEF /* Supporting Files */,
+			);
+			path = "Taylor University Info";
+			sourceTree = "<group>";
+		};
+		B51AF45F1906DE8F0047FBEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4601906DE8F0047FBEF /* Taylor University Info-Info.plist */,
+				B51AF4611906DE8F0047FBEF /* InfoPlist.strings */,
+				B51AF4641906DE8F0047FBEF /* main.m */,
+				B51AF4661906DE8F0047FBEF /* Taylor University Info-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51AF4801906DE8F0047FBEF /* Taylor University InfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4861906DE8F0047FBEF /* Taylor_University_InfoTests.m */,
+				B51AF4811906DE8F0047FBEF /* Supporting Files */,
+			);
+			path = "Taylor University InfoTests";
+			sourceTree = "<group>";
+		};
+		B51AF4811906DE8F0047FBEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51AF4821906DE8F0047FBEF /* Taylor University InfoTests-Info.plist */,
+				B51AF4831906DE8F0047FBEF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51AF4541906DE8F0047FBEF /* Taylor University Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51AF48A1906DE8F0047FBEF /* Build configuration list for PBXNativeTarget "Taylor University Info" */;
+			buildPhases = (
+				B51AF4511906DE8F0047FBEF /* Sources */,
+				B51AF4521906DE8F0047FBEF /* Frameworks */,
+				B51AF4531906DE8F0047FBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taylor University Info";
+			productName = "Taylor University Info";
+			productReference = B51AF4551906DE8F0047FBEF /* Taylor University Info.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51AF4781906DE8F0047FBEF /* Taylor University InfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51AF48D1906DE8F0047FBEF /* Build configuration list for PBXNativeTarget "Taylor University InfoTests" */;
+			buildPhases = (
+				B51AF4751906DE8F0047FBEF /* Sources */,
+				B51AF4761906DE8F0047FBEF /* Frameworks */,
+				B51AF4771906DE8F0047FBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51AF47F1906DE8F0047FBEF /* PBXTargetDependency */,
+			);
+			name = "Taylor University InfoTests";
+			productName = "Taylor University InfoTests";
+			productReference = B51AF4791906DE8F0047FBEF /* Taylor University InfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51AF44D1906DE8F0047FBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Taylor University";
+				TargetAttributes = {
+					B51AF4781906DE8F0047FBEF = {
+						TestTargetID = B51AF4541906DE8F0047FBEF;
+					};
+				};
+			};
+			buildConfigurationList = B51AF4501906DE8F0047FBEF /* Build configuration list for PBXProject "Taylor University Info" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51AF44C1906DE8F0047FBEF;
+			productRefGroup = B51AF4561906DE8F0047FBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51AF4541906DE8F0047FBEF /* Taylor University Info */,
+				B51AF4781906DE8F0047FBEF /* Taylor University InfoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51AF4531906DE8F0047FBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF46F1906DE8F0047FBEF /* Main_iPad.storyboard in Resources */,
+				B51AF4741906DE8F0047FBEF /* Images.xcassets in Resources */,
+				B51AF46C1906DE8F0047FBEF /* Main_iPhone.storyboard in Resources */,
+				B51AF4631906DE8F0047FBEF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51AF4771906DE8F0047FBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF4851906DE8F0047FBEF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51AF4511906DE8F0047FBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF4721906DE8F0047FBEF /* ViewController.m in Sources */,
+				B51AF4691906DE8F0047FBEF /* AppDelegate.m in Sources */,
+				B51AF4651906DE8F0047FBEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51AF4751906DE8F0047FBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51AF4871906DE8F0047FBEF /* Taylor_University_InfoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51AF47F1906DE8F0047FBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51AF4541906DE8F0047FBEF /* Taylor University Info */;
+			targetProxy = B51AF47E1906DE8F0047FBEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51AF4611906DE8F0047FBEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51AF4621906DE8F0047FBEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B51AF46A1906DE8F0047FBEF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51AF46B1906DE8F0047FBEF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B51AF46D1906DE8F0047FBEF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51AF46E1906DE8F0047FBEF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B51AF4831906DE8F0047FBEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51AF4841906DE8F0047FBEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51AF4881906DE8F0047FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51AF4891906DE8F0047FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51AF48B1906DE8F0047FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
+				INFOPLIST_FILE = "Taylor University Info/Taylor University Info-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B51AF48C1906DE8F0047FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
+				INFOPLIST_FILE = "Taylor University Info/Taylor University Info-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B51AF48E1906DE8F0047FBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taylor University Info.app/Taylor University Info";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Taylor University InfoTests/Taylor University InfoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B51AF48F1906DE8F0047FBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taylor University Info.app/Taylor University Info";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
+				INFOPLIST_FILE = "Taylor University InfoTests/Taylor University InfoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51AF4501906DE8F0047FBEF /* Build configuration list for PBXProject "Taylor University Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51AF4881906DE8F0047FBEF /* Debug */,
+				B51AF4891906DE8F0047FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51AF48A1906DE8F0047FBEF /* Build configuration list for PBXNativeTarget "Taylor University Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51AF48B1906DE8F0047FBEF /* Debug */,
+				B51AF48C1906DE8F0047FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51AF48D1906DE8F0047FBEF /* Build configuration list for PBXNativeTarget "Taylor University InfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51AF48E1906DE8F0047FBEF /* Debug */,
+				B51AF48F1906DE8F0047FBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51AF44D1906DE8F0047FBEF /* Project object */;
+}
