@@ -1,0 +1,46 @@
+.open {
+	display: block;
+}
+.closed {
+	display: none;
+}
+li {
+	list-style-type: none;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	font-size: 18px;
+}
+li img {
+	vertical-align: middle;
+}
+a:link {
+	text-decoration: none;
+}
+#header {
+	text-align: center;
+}
+#search {
+	text-align: center;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+#menu_item{
+	color: #FFFF00;
+	text-align: center;
+	background-color: #A4A4A4;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px){
+	#container {
+		width: 100%;
+	}
+}

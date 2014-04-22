@@ -1,0 +1,66 @@
+*Only hot food listed
+
+Breakfast
+	Boiled Eggs
+	Scrambled Eggs
+	Other
+	Meat
+	Biscuits
+	Sausage Gravy
+	Potatoes
+	Oatmeal
+	(sometimes) non-oatmeal hot cereal
+Lunch
+	Homeward Bound
+		Grilled Chicken
+		Starch
+		Meat
+		Other
+	Zia Bella
+		Other Pasta
+		Long Pasta
+		Short Pasta
+		Marinara Sauce
+		Breadsticks/Garlic Bread
+	Chef's Corner
+		list menu items
+	South of the Border
+		Taco Meat
+		Nacho Cheese
+		Mexican Rice
+		Refried Beans
+		Other
+	Burger Bar
+		Burger
+		Turkey Burger
+		Veggie Burger
+		Burger of the Week
+	The Well
+		list menu items
+Dinner
+	Homeward Bound
+		Grilled Chicken
+		Starch
+		Meat
+		Other
+	Zia Bella
+		Other Pasta
+		Long Pasta
+		Short Pasta
+		Marinara Sauce
+		Breadsticks/Garlic Bread
+	South of the Border (normal dinner)
+		Taco Meat
+		Nacho Cheese
+		Mexican Rice
+		Refried Beans
+		Other
+	South of the Border (special dinner)
+		6 items
+	Burger Bar
+		Burger
+		Turkey Burger
+		Veggie Burger
+		Burger of the Week
+	The Well
+		list menu items

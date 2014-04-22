@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="description" content="Taylor Dinning Commons Menu">
+        <meta name="author" content="Phil Brocker">
+        <title>Taylor Dinning Commons Menu</title>
+        <script type="text/javascript" src="js/dropdown.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="home">
+                <a href="index.html">Home</a>
+            </div>
+            <h1 id="header">D.C. Menu</h1>
+            <ul id="menu">
+                <li id="breakfast"><a  onclick="toggle('breakfast');"><img src="images/closed.gif" alt="" id="img_breakfast" border="0"></a>Breakfast
+                    <ul id="ul_breakfast" class="closed">
+                        <li id="homeward_bound"><a  onclick="toggle('homeward_bound');"><img src="images/closed.gif" alt="" id="img_homeward_bound" border="0"></a>Homeward Bound
+                            <ul id="ul_homeward_bound" class="closed">  
+                                <li id="homeward_bound_1_1">homeward bound 2.1.1</li>
+                            </ul>
+                        </li>
+                    </ul>             
+                </li>
+                <li id="lunch"><a  onclick="toggle('lunch');"><img src="images/closed.gif" alt="" id="img_lunch" border="0"></a>Lunch
+                    <ul id="ul_lunch" class="closed">
+                        <li id="item2_1"><a  onclick="toggle('item2_1');"><img src="images/closed.gif" alt="" id="img_item2_1" border="0"></a>Item 2.1
+                            <ul id="ul_item2_1" class="closed">
+                                <li id="item2_1_1">Item 2.1.1</li>
+                                <li id="item2_1_2"><a  onclick="toggle('item2_1_2');"><img src="images/closed.gif" alt="" id="img_item2_1_2" border="0"></a>Item 2.1.2
+
+                                    <ul id="ul_item2_1_2" class="closed">
+                                        <li id="item2_1_2_1">Item 2.1.2.1</li>
+                                        <li id="item2_1_2_2">Item 2.1.2.2</li>
+                                    </ul>                 
+
+                                </li>
+                                <li id="item2_2_3">Item 2.1.3</li>
+                            </ul>             
+                        </li>
+                        <li id="item2_2">Item 2.2</li>
+                    </ul>
+                </li>
+                <li id="dinner"><a  onclick="toggle('dinner');"><img src="images/closed.gif" alt="" id="img_dinner" border="0"></a>Dinner
+                    <ul id="ul_dinner" class="closed">
+                         <li id="item3_1">Item 3.1</li>
+                        <li id="item3_2">Item 3.2</li>
+                        <li id="item3_3">Item 3.3</li>
+                        <li id="item3_4">Item 3.4</li>
+                         <li id="item3_5">Item 3.5</li>
+                    </ul>
+                </li>
+            </ul> 
+        </div>
+
+    </body>
+</html>
