@@ -6,10 +6,8 @@ function toggle(id){
     if (ulElement){
         if (ulElement.className == 'closed'){
             ulElement.className = "open";
-            imgElement.src = "images/opened.gif";
         }else{
             ulElement.className = "closed";
-            imgElement.src = "images/closed.gif";
         }
     }
 }

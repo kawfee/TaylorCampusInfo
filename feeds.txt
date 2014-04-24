@@ -1,0 +1,26 @@
+Andrews Temporary DC JSON Feed:
+	http://cse.taylor.edu/~ansmith/DCMenu
+
+All calendar events:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss
+
+Chapel:
+	http://25livepub.collegenet.com/calendars/chapel.rss
+
+Athletic:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss?mixin=10950%2c10140
+
+Art, Music, Theater:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss?mixin=10755%2c10140
+
+Admissions, Alumni, Parents:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss?mixin=10720%2c10140
+
+Academic:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss?mixin=9287%2c10140
+
+Other:
+	http://25livepub.collegenet.com/calendars/external-calendar-color.rss?mixin=11079%2c10140
+
+link to seperate athletic team rss feeds:
+	http://athletics.taylor.edu/rss_feeds.aspx
