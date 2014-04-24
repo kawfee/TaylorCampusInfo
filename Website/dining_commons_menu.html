@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"> 
-        <meta name="description" content="Taylor Dinning Commons Menu">
+        <meta name="description" content="Taylor Dining Commons Menu">
         <meta name="author" content="Phil Brocker">
 		<title>Taylor Dining Commons Menu</title>
 		<script src="js/jquery-1.11.0.min.js"></script>
@@ -17,97 +17,105 @@
                 <a href="index.html">Home</a>
             </div>
             <h1 id="header">D.C. Menu</h1>
+			<ul id="date_container">
+			</ul>
             <div id="menu">
-                <div id="breakfast"><a  onclick="toggle('breakfast');"><button type="button">Breakfast</button></a>
+			
+				<ul id="soupOfTheDay" class = "line">Soup of the Day
+				</ul>
+				
+				<ul id="burgerOfTheWeek" class = "line">Burger of the Week
+				</ul>
+				
+                <div id="breakfast_div"><a  onclick="toggle('breakfast');"><button type="button">Breakfast</button></a>
                     <ul id="ul_breakfast" class="closed">
-                        <ul id="line">Homeward Bound
-                            <li id="item">Boiled Eggs</li>
-                            <li id="item">Scrambled Eggs</li>
-                            <li id="item">Other</li>
-                            <li id="item">Meat</li>
-                            <li id="item">Biscuits</li>
-                            <li id="item">Sausage Gravy</li>
-                            <li id="item">Potatoes</li>
-                            <li id="item">Oatmeal</li>
-                            <li id="item">(sometimes) non-oatmeal hot cereal</li>
+                        <ul id="breakfast" class="line">
+                            <li class="item">Boiled Eggs</li>
+                            <li class="item">Scrambled Eggs</li>
+                            <li class="item">Other</li>
+                            <li class="item">Meat</li>
+                            <li class="item">Biscuits</li>
+                            <li class="item">Sausage Gravy</li>
+                            <li class="item">Potatoes</li>
+                            <li class="item">Oatmeal</li>
+                            <li class="item">(sometimes) non-oatmeal hot cereal</li>
                         </ul>
                     </ul>             
                 </div>
-                <div id="lunch"><a  onclick="toggle('lunch');"><button type="button">Lunch</button></a>
+                <div id="lunch_div"><a  onclick="toggle('lunch');"><button type="button">Lunch</button></a>
                     <ul id="ul_lunch" class="closed">
-                        <ul id="line">Homeward Bound
-                            <li id="item">Grilled Chicken</li>
-                            <li id="item">Starch</li>
-                            <li id="item">Meat</li>
-                            <li id="item">Other</li>
+                        <ul id="homewardBoundLunch" class="line">Homeward Bound
+                            <li class="item">Grilled Chicken</li>
+                            <li class="item">Starch</li>
+                            <li class="item">Meat</li>
+                            <li class="item">Other</li>
                         </ul>
-                        <ul id="line">Zia Bella
-                            <li id="item">Other Pasta</li>
-                            <li id="item">Long Pasta</li>
-                            <li id="item">Short Pasta</li>
-                            <li id="item">Marinara Sauce</li>
-                            <li id="item">Breadsticks/Garlic Bread</li>
+                        <ul id="ziabellasLunch" class="line">Zia Bella
+                            <li class="item">Other Pasta</li>
+                            <li class="item">Long Pasta</li>
+                            <li class="item">Short Pasta</li>
+                            <li class="item">Marinara Sauce</li>
+                            <li class="item">Breadsticks/Garlic Bread</li>
                         </ul>
-                        <ul id="line">Chef's Corner
-                            <li id="item">list menu items</li>
+                        <ul id="chefsCornerLunch" class="line">Chef's Corner
                         </ul>
-                        <ul id="line">South of the Border
-                            <li id="item">Taco Meat</li>
-                            <li id="item">Nacho Cheese</li>
-                            <li id="item">Mexican Rice</li>
-                            <li id="item">Refried Beans</li>
-                            <li id="item">Other</li>
+                        <ul id="southOfTheBorderLunch" class="line">South of the Border
+                            <li class="item">Taco Meat</li>
+                            <li class="item">Nacho Cheese</li>
+                            <li class="item">Mexican Rice</li>
+                            <li class="item">Refried Beans</li>
+                            <li class="item">Other</li>
                         </ul>
-                        <ul id="line">Burger Bar
-                            <li id="item">Burger</li>
-                            <li id="item">Turkey Burger</li>
-                            <li id="item">Veggie Burger</li>
-                            <li id="item">Burger of the Week</li>
+                        <ul id="theBurgerBarLunch" class="line">Burger Bar
+                            <li class="item">Burger</li>
+                            <li class="item">Turkey Burger</li>
+                            <li class="item">Veggie Burger</li>
+                            <li class="item">Burger of the Week</li>
                         </ul>
-                        <ul id="line">The Well
-                            <li id="item">list menu items</li>
+                        <ul id="theWellLunch" class="line">The Well
                         </ul>
                     </ul>
                 </div>
-                <div id="dinner"><a  onclick="toggle('dinner');"><button type="button">Dinner</button></a>
+                <div id="dinner_div"><a  onclick="toggle('dinner');"><button type="button">Dinner</button></a>
                     <ul id="ul_dinner" class="closed">
-                        <ul id="line">Homeward Bound
-                            <li id="item">Grilled Chicken</li>
-                            <li id="item">Starch</li>
-                            <li id="item">Meat</li>
-                            <li id="item">Other</li>
+                        <ul id="homewardBoundDinner" class="line">Homeward Bound
+                            <li class="item">Grilled Chicken</li>
+                            <li class="item">Starch</li>
+                            <li class="item">Meat</li>
+                            <li class="item">Other</li>
                         </ul>
-                        <ul id="line">Zia Bella
-                            <li id="item">Other Pasta</li>
-                            <li id="item">Long Pasta</li>
-                            <li id="item">Short Pasta</li>
-                            <li id="item">Marinara Sauce</li>
-                            <li id="item">Breadsticks/Garlic Bread</li>
+                        <ul id="ziabellasDinner" class="line">Zia Bella's
+                            <li class="item">Other Pasta</li>
+                            <li class="item">Long Pasta</li>
+                            <li class="item">Short Pasta</li>
+                            <li class="item">Marinara Sauce</li>
+                            <li class="item">Breadsticks/Garlic Bread</li>
                         </ul>
-                        <ul id="line">Chef's Corner
+                        <ul id="chefsCornerDinner" class="line">Chef's Corner
                             <li id="item">list menu items</li>
                         </ul>
-                        <ul id="line">South of the Border
-                            <li id="item">Taco Meat</li>
-                            <li id="item">Nacho Cheese</li>
-                            <li id="item">Mexican Rice</li>
-                            <li id="item">Refried Beans</li>
-                            <li id="item">Other</li>
+                        <ul id="southOfTheBorderDinner" class="line">South of the Border
+                            <li class="item">Taco Meat</li>
+                            <li class="item">Nacho Cheese</li>
+                            <li class="item">Mexican Rice</li>
+                            <li class="item">Refried Beans</li>
+                            <li class="item">Other</li>
                         </ul>
-                        <ul id="line">South of the Border (special dinner)
+                        <ul id="southOfTheBorderSpecialDinner" class="line">South of the Border (special dinner) <- Not in feed, what is this?
                             <li id="item">6 items</li>
                         </ul>
-                        <ul id="line">Burger Bar
-                            <li id="item">Burger</li>
-                            <li id="item">Turkey Burger</li>
-                            <li id="item">Veggie Burger</li>
-                            <li id="item">Burger of the Week</li>
+                        <ul id="theBurgerBarDinner" class="line">Burger Bar
+                            <li class="item">Burger</li>
+                            <li class="item">Turkey Burger</li>
+                            <li class="item">Veggie Burger</li>
+                            <li class="item">Burger of the Week</li>
                         </ul>
-                        <ul id="line">The Well
-                            <li id="item">list menu items</li>
+                        <ul id="theWellDinner" class="line">The Well
                         </ul>
                     </ul>
                 </div>
+
+
             </div> 
         </div>
 
