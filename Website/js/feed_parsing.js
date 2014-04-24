@@ -7,20 +7,12 @@
 window.addEventListener("load" , init , false) 
 
 function init(){
-	console.log("looking for data from stream");
 
-	//send request to andrew's page
-	var xhr = new XMLHttpRequest();
-	xhr.open ("GET" , "http://cse.taylor.edu/~ansmith/DCMenu");
+	json = '{"menuDate": "1-1-14","breakfast":"Pancakes","soupOfTheDay":"Chicken Noodle","burgerOfTheWeek": "Special Burger","lunchbrunch" : "Hot Dogs","homewardBoundLunch" : "Chicken Nuggets","ziabellasLunch": "Spaghetti","southOfTheBorderLunch": "Taco","chefsCornerLunch":"Chicken Wraps","theBurgerBarLunch": "Burgers","theWellLunch":"Fish","homewardBoundDinner":"Steak","ziabelasDinner":"Lasagna","southOfTheBorderDinner":"Burrito","chefsCornerDinner":"Chicken","theBurgerBarDinner":"More Burgers","theWellDinner":"Fruit Salad"}'
 
-	xhr.onreadystatechange = function () {
-		if (xhr.readyState === 4 && xhr.status === 200){
-			console.log("got response");
-			console.log(xhr.responseText)
-		}
-	}
+	var obj = eval("(" + json + ')');
 
-	xhr.send();
-	console.log("sent request")
+	console.log(obj)
+
+
 }
-
