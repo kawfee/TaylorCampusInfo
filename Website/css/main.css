@@ -1,5 +1,6 @@
 .open {
 	display: block;
+	text-align: left;
 }
 .closed {
 	display: none;
@@ -10,6 +11,13 @@ li {
 }
 a:link {
 	text-decoration: none;
+}
+#item {
+	margin-left: 25px;
+}
+#line {
+	font-size: 20px;
+	margin-top: 10px;
 }
 #header, #menu  {
 	text-align: center;
