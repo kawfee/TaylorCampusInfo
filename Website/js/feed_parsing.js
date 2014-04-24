@@ -27,7 +27,6 @@ function init(){
 	load_date(menu_obj)
 	load_menu_items(menu_obj)
 
-	
 }
 
 // Gets date info from menu object and places in 'date_container' as li
@@ -75,22 +74,3 @@ function load_menu_items(menu_obj){
 	  }
 	}
 }
-/*
-function init(){
-	console.log("looking for data from stream");
-
-	//send request to andrew's page
-	var xhr = new XMLHttpRequest();
-	xhr.open ("GET" , "http://cse.taylor.edu/~ansmith/DCMenu");
-
-	xhr.onreadystatechange = function () {
-		if (xhr.readyState === 4 && xhr.status === 200){
-			console.log("got response");
-			console.log(xhr.responseText)
-		}
-	}
-
-	xhr.send();
-	console.log("sent request")
-}
-*/

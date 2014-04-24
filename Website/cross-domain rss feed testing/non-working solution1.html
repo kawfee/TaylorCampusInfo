@@ -1,0 +1,22 @@
+<html>
+   <head>
+   	<script src="../js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+
+		// Can't figure out why this solution isn't working. It would be so much better than what we have.
+		// Came from: http://stackoverflow.com/questions/226663/parse-rss-with-jquery
+		function parseRSS(url, callback) {
+		  $.ajax({
+			url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=1&callback=?&q=' + encodeURIComponent(url),
+			dataType: 'json',
+			success: function(data) {
+			  callback(data.responseData.feed);
+			}
+		  });
+		}
+	</script>
+   </head>
+   <body onLoad='parseRSS("http://25livepub.collegenet.com/calendars/chapel.rss");'>
+   </body>
+</html>   
+

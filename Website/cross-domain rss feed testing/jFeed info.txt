@@ -1,0 +1,6 @@
+According to http://stackoverflow.com/questions/226663/parse-rss-with-jquery\
+
+	Jfeed may be able to work for parsing rss feeds, but it cannot work without writing a PhP proxy
+if we want to do cross-domain requests (we do).
+
+Jfeed link: https://github.com/jfhovinne/jFeed
