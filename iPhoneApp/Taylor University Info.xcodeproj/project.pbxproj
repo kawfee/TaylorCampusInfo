@@ -393,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
 				INFOPLIST_FILE = "Taylor University Info/Taylor University Info-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taylor University Info/Taylor University Info-Prefix.pch";
 				INFOPLIST_FILE = "Taylor University Info/Taylor University Info-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +472,7 @@
 				B51AF48C1906DE8F0047FBEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B51AF48D1906DE8F0047FBEF /* Build configuration list for PBXNativeTarget "Taylor University InfoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +481,7 @@
 				B51AF48F1906DE8F0047FBEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

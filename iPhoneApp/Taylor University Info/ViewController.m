@@ -21,13 +21,21 @@
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
-	// Do any additional setup after loading the view, typically from a nib.
+    UISwipeGestureRecognizer * swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRight:)];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
+    [self.view addGestureRecognizer:swipeRight];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)swipeRight:(UISwipeGestureRecognizer*)gestureRecognizer{
+    if([_viewWeb canGoBack]){
+        [_viewWeb goBack];
+    }
 }
 
 @end
