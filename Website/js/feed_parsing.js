@@ -5,7 +5,6 @@
 //http://cse.taylor.edu/~ansmith/DCMenu
 
 window.addEventListener("load" , init , false) 
-var admin = false;
 
 function init(){
 	console.log("looking for data from stream");
@@ -17,9 +16,11 @@ function init(){
 	xhr.onreadystatechange = function () {
 		if (xhr.readyState === 4 && xhr.status === 200){
 			console.log("got response");
+			console.log(xhr.responseText)
 		}
 	}
 
 	xhr.send();
+	console.log("sent request")
 }
 
