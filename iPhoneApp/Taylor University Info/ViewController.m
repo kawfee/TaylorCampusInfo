@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *fullURL = @"http://cse.taylor.edu/~pbrocker/Html-Javascript/";
+    //NSString *fullURL = @"http://cse.taylor.edu/~pbrocker/Html-Javascript/";
+    NSString *fullURL = @"file:///Volumes/Macintosh%20HD%202/Users/Bryant/GitHub/TaylorCampusInfo/Website/index.html";
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
