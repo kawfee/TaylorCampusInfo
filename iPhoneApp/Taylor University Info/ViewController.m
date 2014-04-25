@@ -17,14 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    /* Set up URL */
     //NSString *fullURL = @"http://cse.taylor.edu/~pbrocker/Html-Javascript/";
     NSString *fullURL = @"file:///Volumes/Macintosh%20HD%202/Users/Bryant/GitHub/TaylorCampusInfo/Website/index.html";
     NSURL *url = [NSURL URLWithString:fullURL];
+    /* Setup request object for url */
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [_viewWeb loadRequest:requestObj];
+    [_viewWeb loadRequest:requestObj]; // Load page
+    /* Setup gesture recognizer */
     UISwipeGestureRecognizer * swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRight:)];
-    swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
-    [self.view addGestureRecognizer:swipeRight];
+    swipeRight.direction = UISwipeGestureRecognizerDirectionRight; // Set desired direction to recognize
+    [self.view addGestureRecognizer:swipeRight]; // Add Recognizer to view
 }
 
 - (void)didReceiveMemoryWarning
